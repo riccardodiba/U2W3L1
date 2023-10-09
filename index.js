@@ -65,7 +65,7 @@ const renderList = function () {
   pets.forEach((pet) => {
     const newLi = document.createElement('li')
     newLi.innerText =
-      'Nome: ' + pet.petName + ', proprietario: ' + pet.ownerName
+      'Nome: ' + pet.petName + ', proprietario: ' + pet.ownerName + ", specie: " + pet.species + ", razza: " + pet.breed
     petList.appendChild(newLi)
   })
 }
